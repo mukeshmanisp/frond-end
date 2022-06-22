@@ -21,10 +21,7 @@ export class ProductComponent implements OnInit {
       this.filterCategory=res;
 
       this.productList.forEach((a:any) => {
-        if(a.category==="men's clothing"|| a.category==="women's clothing")
-        {
-          a.category="fashion"
-        }
+       
         Object.assign(a,{quantity:1,total:a.price});
         
       });

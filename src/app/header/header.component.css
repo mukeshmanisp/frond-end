@@ -1,17 +1,22 @@
+.bgcolor{
+  background: rgb(155, 223, 204);
+}
 .form-control
 {
     border-radius: 3px;
+    border-color: #000000;
     width: 600px;
     margin-left: 20px;
     margin-top: 15px;
+    
 }
 .search-icon
 {
     position: absolute;
     z-index:10 ;
-    right: 38% ;
-    top: 43px;
-    color: green;
+    right: 34% ;
+    top: 42px;
+    color: rgb(5, 5, 5);
 }
 #cartbutton
 {
@@ -37,7 +42,7 @@
     border-radius: 4px;
 
     border: none;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
    
     padding: 20px;
@@ -68,4 +73,7 @@
   #userlogin:hover span:after, #adminlogin:hover span:after {
     opacity: 1;
     right: 0;
+  }
+  .heading{
+    font-size: 40px;
   }
